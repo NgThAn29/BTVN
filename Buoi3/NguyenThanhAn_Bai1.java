@@ -46,7 +46,7 @@ public class NguyenThanhAn_Bai1 {
         System.out.print("Vi tri cac so nho nhat trong mang la: ");
         for (int i = 0; i < a.length; i++) {
             if (a[i] == min) {
-            	System.out.print(i+ " ");
+            	System.out.print(i+1+ " ");
             }
         }
         System.out.println();
@@ -81,11 +81,11 @@ public class NguyenThanhAn_Bai1 {
                     dem++;
                 }
             }
-            if(dem==2) {
+            if(dem ==2 ) {
                 System.out.print(a[i] + " ");
                 temp++;
             }
-            dem=0;
+            dem = 0;
         }
         if (temp == 0 ) {
             System.out.print("Khong co so nguyen to nao! ");
